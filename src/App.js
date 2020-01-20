@@ -5,10 +5,20 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <p>
-        The JavaScritp it's like a magic, when the code run is the best
-        sensation in the world!!!!
-      </p>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Welcome to Codaisseur
+        </a>
+      </header>
     </div>
   );
 }
